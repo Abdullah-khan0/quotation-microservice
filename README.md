@@ -15,8 +15,7 @@ A **FastAPI** microservice that generates quotations, calculates line totals & g
 - [API Reference](#api-reference)  
 - [Sample Requests](#sample-requests)  
 - [Testing](#testing)  
-- [Contribution Guidelines](#contribution-guidelines)  
-- [License](#license)  
+
 
 ---
 
@@ -107,9 +106,9 @@ docker run -d \
   -e GROQ_API_KEY="your_groq_api_key" \
   --name quotation-service \
   quotation-service
-
+---
 The API will now be reachable at http://localhost:8000/docs.
-
+---
 Common Docker commands
 Command	Description
 docker ps
@@ -227,3 +226,4 @@ Below is a simple flow of how the quotation microservice works:
 Local testing via Swagger UI: http://127.0.0.1:8000/docs
 
 Automated tests (if you add tests/):
+
